@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="82sp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textProfileActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Welcome!"
+            android:textAlignment="center"
+            android:layout_marginBottom="40sp"/>
+
+        <Button
+            android:id="@+id/buttonCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40sp"
+            android:text="Calendar"/>
+
+        <Button
+            android:id="@+id/buttonHowStressedTest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40sp"
+            android:text="How Stressed Are you?"/>
+
+        <Button
+            android:id="@+id/buttonMeditations"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40sp"
+            android:text="MEDITATIONS"/>
+
+        <Button
+            android:id="@+id/buttonProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40sp"
+            android:text="Progress"/>
+
+        <Button
+            android:id="@+id/buttonPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40sp"
+            android:text="Personal"/>
+
+        <Button
+            android:id="@+id/buttonSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginVertical="40sp"
+            android:text="SIGN OUT"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

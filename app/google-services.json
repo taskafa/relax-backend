@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "305673475895",
+    "firebase_url": "https://birdie-11975.firebaseio.com",
+    "project_id": "birdie-11975",
+    "storage_bucket": "birdie-11975.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305673475895:android:f0c59104cf70b9ad",
+        "android_client_info": {
+          "package_name": "team1.ge401.bilkent.edu.tr.birdie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305673475895-enjleovinesq3967a1bgcupjtkd6p2li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdRe_YbCJBPRXoBjegVOm7KqtQ6B0O3tE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

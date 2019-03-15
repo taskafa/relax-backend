@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Birdie</string>
+    <string name="title_activity_how_stressed">HowStressedActivity</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="how_stressed">How stressed?</string>
+    <string name="meditations">MEDITATIONS</string>
+    <string name="profile_page">Profile Page</string>
+</resources>
